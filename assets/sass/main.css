@@ -1,0 +1,225 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+.banner__box__contenedor--button:first-child {
+  font-size: 1.25rem;
+  background-color: #79DEE7;
+  color: #FFF;
+  margin: 0 1rem 0 0;
+}
+
+.banner__box__contenedor--button:first-child:hover {
+  background-color: #CCC;
+  color: #001614;
+}
+
+.banner__box__contenedor--button:last-child {
+  font-size: 1.25rem;
+  background-color: #FF565B;
+  color: #FFF;
+}
+
+.banner__box__contenedor--button:last-child:hover {
+  background-color: #CCC;
+  color: #001614;
+}
+
+.navbar {
+  padding: 1rem;
+}
+
+.navbar__icono {
+  font-family: "Spartan", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.navbar__icono--up {
+  font-size: 0.625rem;
+  top: -2rem;
+}
+
+.navbar__list--item {
+  font-size: 1.25rem;
+  padding: .7rem 0;
+}
+
+.banner {
+  background-image: url("../images/image-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10% 0;
+}
+
+.banner__box {
+  margin: 1rem 0;
+}
+
+.banner__box__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.banner__box__image--avatar {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 991px) {
+  .banner__box__image--avatar {
+    width: 50%;
+  }
+}
+
+.banner__box__texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+@media only screen and (max-width: 991px) {
+  .banner__box__texto {
+    margin: 1rem 0 0 0;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+}
+
+.banner__box__texto--title {
+  font-weight: 700;
+  font-size: 1.875rem;
+}
+
+@media only screen and (max-width: 991px) {
+  .banner__box__texto--title {
+    margin: 1rem 0 0 0;
+  }
+}
+
+.banner__box__texto--paragraph {
+  margin: 1rem 0 0 0;
+  font-size: 1.25rem;
+  color: #CCC;
+}
+
+.banner__box__contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-width: 991px) {
+  .banner__box__contenedor {
+    display: none;
+  }
+}
+
+.linea {
+  margin: 0px auto;
+  height: 0.07rem;
+  width: 100%;
+  background-color: #dadada;
+}
+
+.content__head {
+  text-align: left;
+  font-size: 1.875rem;
+  padding: 2rem 0;
+}
+
+.content__card {
+  padding: 1rem 1rem;
+}
+
+.content__card--image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.content__card--title {
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.125rem;
+  padding: 0.7rem 0 0.5rem 0;
+}
+
+.content__card--paragraph {
+  font-size: 0.875rem;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+/*# sourceMappingURL=main.css.map */
